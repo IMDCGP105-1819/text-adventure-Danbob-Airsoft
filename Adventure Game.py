@@ -18,22 +18,40 @@ Dungeon["EndRoom"] = Room("EndRoom", "Description here",{})
 Dungeon["Outside"] = Room("Outside", "Description here",{})
 
 #Creating Player Class
-class Player(object):
+class player(object):
     def __init__(self):
         self.CurrentRoom = Dungeon["MainRoom"]
         self.Inventory = []
+Player = player()
 
 #Processing Player Input Function
 def ProcessInput(PlayerChoice):
     if PlayerChoice[0] == "go":
         if PlayerChoice[1] == "north":
             print ("going north")
+            if "N" in Player.CurrentRoom.Connections:
+                Player.CurrentRoom = Dungeon[Player.CurrentRoom.Connections["N"]]
+            else:
+                print ("You can not go that way")
         elif PlayerChoice[1] == "south":
             print ("soing south")
+            if "S" in Player.CurrentRoom.Connections:
+                Player.CurrentRoom = Dungeon[Player.CurrentRoom.Connections["S"]]
+            else:
+                print ("You can not go that way")
         elif PlayerChoice[1] == "east":
             print ("going east")
+            if "E" in Player.CurrentRoom.Connections:
+                Player.CurrentRoom = Dungeon[Player.CurrentRoom.Connections["E"]]
+            else:
+                print ("You can not go that way")
         elif PlayerChoice[1] == "west":
             print ("going west")
+            if "W" in Player.CurrentRoom.Connections:
+                Player.CurrentRoom = Dungeon[Player.CurrentRoom.Connections["W"]]
+            else:
+                print ("You can not go that way")
+
         else:
             print ("That is not a valid direction")
 
