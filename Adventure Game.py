@@ -24,8 +24,21 @@ class player(object):
         self.Inventory = []
 Player = player()
 
+#Item class
+class Item (object):
+    def __init__ (self, Name, Description):
+        self.Name = Name
+        self.Description = Description
+#Defining each Item
+ItemDictionary = {}
+ItemDictionary["KitchenKey"] = Item("KitchenKey", "ItemDescription")
+ItemDictionary["WallTile"] = Item("WallTile", "ItemDescription")
+ItemDictionary["Match"] = Item("Match", "ItemDescription")
+ItemDictionary["OilLamp"] = Item("OilLamp", "ItemDescription")
+
 #Processing Player Input Function
 def ProcessInput(PlayerChoice):
+    #Movement
     if PlayerChoice[0] == "go":
         if PlayerChoice[1] == "north":
             print ("going north")
@@ -34,7 +47,7 @@ def ProcessInput(PlayerChoice):
             else:
                 print ("You can not go that way")
         elif PlayerChoice[1] == "south":
-            print ("soing south")
+            print ("going south")
             if "S" in Player.CurrentRoom.Connections:
                 Player.CurrentRoom = Dungeon[Player.CurrentRoom.Connections["S"]]
             else:
@@ -55,9 +68,34 @@ def ProcessInput(PlayerChoice):
         else:
             print ("That is not a valid direction")
 
+        print(Player.CurrentRoom.Name)
 
-#Processing Player Input
+    #Looking Commands
+    elif PlayerChoice[0] == "look":
+        if len(PlayerChoice) < 2:
+            print (Player.CurrentRoom.Description)
+        elif PlayerChoice[1] in Player.CurrentRoom.Items:
+            print (ItemDictionary[PlayerChoice[1]].Description)
+        else:
+            print ("That item is not in this room")
+
+    #Take object
+
+    #Drop Item
+
+    #Use Item
+
+    #Checking for the two scripted ending Room
+    if Player.CurrentRoom == Dungeon["Outside"]:
+        print ("Insert Outside ending text")
+    elif Player.CurrentRoom == Dungeon["EndRoom"]:
+        print ("Insert Ending text")
+
+
+
+#Running the Game
 Running = True
+print ("Intro Here")
 while Running == True:
     #Take player input and split on space into a list
     PlayerChoice = input("What will you do? ")
