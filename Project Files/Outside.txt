@@ -1,0 +1,3 @@
+"""You step back into the cold outdoors.
+The sun shines brightly on your face as you walk away from the ruined palace.
+This challenge has bested you., but you are not the first to have given up..."""

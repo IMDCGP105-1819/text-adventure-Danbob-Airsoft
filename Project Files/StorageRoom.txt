@@ -1,0 +1,6 @@
+"""The door gives a loud creek as you pass through into what was clearly once a storage chamber for palace supplies.
+However, time and looting have left very few items in the room.
+A large central shelfing unit runs down the centre of the room while wall mounted shelfs run along the two side walls.
+A small carpet sits under part of the shelf, its corner crumpled to reveal part of a small hidden hole.
+Nothing remains on the central shelf while the side shelfs are covered in the crumbs of food and shards of wood.
+The only door to this room leads back into the main entrance area to the west."""

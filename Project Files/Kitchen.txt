@@ -1,0 +1,7 @@
+"""With a small ammount of force you open the door into the palace’s kitchen area.
+Metal pots, pans and other cooking equipment are scattered around the room both across the many worktops and around the floor.
+Small remains of food are strewn across the floor, too old for even the rats to eat at this time.
+The only missing items from the room are large, sharp preparation knifes and the monarch’s famous solid gold cutlery.
+On the ground by the door is a small box of Matches.
+To the south is the door back into the throne room.
+A small crate sits in a gap between the work stations on the western wall. It looks considerably less weathered and damaged than its surroundings."""

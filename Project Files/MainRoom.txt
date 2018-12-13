@@ -1,0 +1,6 @@
+"""You enter what appears to be the main entrance room of the ruined palace.
+Four pillars stand, weathered and damaged, one in each corner of the room. Wooden torches surround the outer walls, unlit and rotting away. Moss grows through many cracks in the floor, ceiling and walls.
+To the South is the entrance door, still slightly open from your entrance.
+To the North is a large, impressive door with the old monarch’s family crest engraved onto it, a large bear stood upright, broadsword in its left hand, though its colour has faded with time.
+To the East is a slightly less impressive but still grand door, more worn and weathered than the Northern door. The symbol of a throne is engraved onto this door.
+To the West is an ordinary wooden door, far less grand than the others in the room. Time has taken its tole on this door however there is a vague chest engraving upon it."""

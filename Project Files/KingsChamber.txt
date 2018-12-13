@@ -1,0 +1,13 @@
+"""You exit the secret passage and enter the kings chamber from behind a banner which bears the family crest.
+The room appeared to once be the grandest in the entire palace, however now it stands in ruin with all items of value torn out and the chests looted.
+A large bed sits facing along the centre of the northern wall, facing the rooms southern entrance.
+Two paintings remain, likely un-looted due to the damage present on the artwork.
+One hangs directly across from the passage and shows the entire royal family, the monarch with his wife by his side and their two children standing in front.
+The second painting hangs above the large bed along the northern wall.
+A small section of wall within the painting is missing, however the damage does not look to be due to age or looting.
+In the south west corner there are 3 fragments matching the design of the walls piled one on top of the other.
+Their size and shapes match that of the damage within the painting but each has a unique design painted onto it.
+Use “look tile1” to view the first and “take tile1” to take it.
+Use “look tile2” to view the second and “take tile2” to take it.
+Use “look tile3” to view the third and “take tile3” to take it.
+The large door leading back to the main room is locked even from the inside, no keyhole is visible"""

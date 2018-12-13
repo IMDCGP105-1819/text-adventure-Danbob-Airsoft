@@ -1,0 +1,5 @@
+"""You enter the secret room and are taken aback, this room unlike all the others, looks untouched for years.
+Many grand painting line the walls and torches fill every corner with light.
+In the centre of the room is a large Golden chest. Bursting open with more golden coins. You have what you came for. You bested every explorer who failed.
+Congratulations!
+The End"""

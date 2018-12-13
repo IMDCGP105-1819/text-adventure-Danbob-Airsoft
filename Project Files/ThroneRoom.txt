@@ -1,0 +1,7 @@
+"""You open the door marked with the throne and find yourself (Rather predictably) in the main throne room of the palace.
+At the far east end of the room lays the monarchs throne, fallen onto its side and missing the golden furnishings that marked it as the seat of the king.
+Next to it in a similarly ruined state lays the seat of the monarch’s wife, it too has had all that made it valuable removed.
+Oil Lamps (use oillamp to interact with these) line the walls, they too are unlit but still contain a small amount of oil, left behind by looters.
+A tattered and faded red carpet stretches from the eastern door up to the thrones themselves.
+To the West is the door to the main entrance room.
+In the North Eastern corner of the room, behind both thrones, is a door with a cooking pot engraved onto it."""
